@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+/* section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%0;
+    background-image: url('pic.webp');
+    background-size: cover;
+    background-position: center; 
+}*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('good.avif');
+    background-size: cover;
+
+}
+
+.login-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background:transparent;
+    border: 2px solid rgba(35, 231, 21, 0.5);
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(12px);
+
+}
+
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.input-box{
+    /* font-size: 0.7em; */
+    position: relative;
+    width: 310px;
+    margin: 5% 0;
+    border-bottom: 2px solid #fff;    
+}
+
+.input-box label{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+    padding: 0 35px 0 2px;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -1px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    color: #fff;
+    transition: .5s;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 60px;
+}
+
+.remember-forgot{
+    margin: -5px 0 15px;
+    font-size: 1em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.remember-forgot label input{
+    margin-right: 10px;
+}
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    color: gold;
+    border-radius: 40px;
+    background: blue;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 500px;
+
+}
+
+.resister-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.resister-link p a:hover{
+    text-decoration: underline;
+}
+#b{
+   color: gold;
+}
